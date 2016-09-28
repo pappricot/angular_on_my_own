@@ -11,7 +11,7 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
   $routeProvider
 
   .when('/home', {
-  	templateUrl: 'home/home.html',
+  	templateUrl: 'views/home.html',
   	controller: 'homeCtrl'
   })
 
@@ -21,12 +21,12 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
   })
 
   .when('/faq', {
-  	templateUrl: 'faq/faq.html',
+  	templateUrl: 'views/faq.html',
   	controller: 'faqCtrl'
   })
 
   .when('/contact', {
-  	templateUrl: 'contact/contact.html',
+  	templateUrl: 'views/contact.html',
   	controller: 'contactCtrl'
   })
 
