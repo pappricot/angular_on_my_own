@@ -4,6 +4,6 @@ angular.module('myApp')
 
 
 
-.controller('View2Ctrl', [function() {
+.controller('bioCtrl', [function() {
 
 }]);

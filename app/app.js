@@ -16,7 +16,7 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
   })
 
   .when('/bio', {
-  	templateUrl: 'bio/bio.html',
+  	templateUrl: 'views/bio.html',
   	controller: 'bioCtrl'
   })
 
